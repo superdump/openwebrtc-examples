@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74DCA19A1A38E12100BF8F41 /* OpenWebRTCVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCA1991A38E12100BF8F41 /* OpenWebRTCVideoView.m */; };
 		F8CD805519FD2CEF00B0ED0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CD805419FD2CEF00B0ED0C /* main.m */; };
 		F8CD805819FD2CEF00B0ED0C /* SimpleDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CD805719FD2CEF00B0ED0C /* SimpleDemoAppDelegate.m */; };
 		F8CD805E19FD2CEF00B0ED0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CD805C19FD2CEF00B0ED0C /* Main.storyboard */; };
@@ -234,6 +235,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74DCA1981A38E12100BF8F41 /* OpenWebRTCVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenWebRTCVideoView.h; sourceTree = "<group>"; };
+		74DCA1991A38E12100BF8F41 /* OpenWebRTCVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenWebRTCVideoView.m; sourceTree = "<group>"; };
 		F8CD804F19FD2CEF00B0ED0C /* SimpleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CD805319FD2CEF00B0ED0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8CD805419FD2CEF00B0ED0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1773,6 +1776,8 @@
 		F8CD809519FD7C6B00B0ED0C /* OwrHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				74DCA1981A38E12100BF8F41 /* OpenWebRTCVideoView.h */,
+				74DCA1991A38E12100BF8F41 /* OpenWebRTCVideoView.m */,
 				F8CD809619FD7C6B00B0ED0C /* OpenWebRTCViewController.h */,
 				F8CD809719FD7C6B00B0ED0C /* OpenWebRTCViewController.m */,
 				F8CD809819FD7C6B00B0ED0C /* OpenWebRTCWebView.h */,
@@ -3901,6 +3906,7 @@
 				F8CD809B19FD7C6B00B0ED0C /* OpenWebRTCWebView.m in Sources */,
 				F8CD809A19FD7C6B00B0ED0C /* OpenWebRTCViewController.m in Sources */,
 				F8CD805819FD2CEF00B0ED0C /* SimpleDemoAppDelegate.m in Sources */,
+				74DCA19A1A38E12100BF8F41 /* OpenWebRTCVideoView.m in Sources */,
 				F8CD809E19FD7DB700B0ED0C /* SimpleDemoViewController.m in Sources */,
 				F8CD805519FD2CEF00B0ED0C /* main.m in Sources */,
 			);
