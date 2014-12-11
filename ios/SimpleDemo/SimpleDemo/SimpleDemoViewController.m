@@ -73,6 +73,8 @@
 
 - (IBAction)callButtonTapped:(id)sender
 {
+    [self.browserView evaluateJavaScript:@"document.getElementById('call_but').click();" completionHandler:nil];
+
     callButton.enabled = NO;
     hangupButton.enabled = YES;
 }
