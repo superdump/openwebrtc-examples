@@ -89,6 +89,7 @@
         [renderers setObject:msg[@"sourceType"] forKey:tag];
         self.browserView.hidden = YES;
         self.selfView.hidden = NO;
+        self.remoteView.hidden = NO;
     }
 }
 
