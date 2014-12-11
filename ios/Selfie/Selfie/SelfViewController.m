@@ -54,10 +54,10 @@ OwrVideoRenderer *renderer;
 - (IBAction)cameraSelected:(id)sender
 {
     NSString *key = [[self.segments allKeys] objectAtIndex:self.cameraSelector.selectedSegmentIndex];
+    OwrMediaSource *source = [[self.segments objectForKey:key] pointerValue];
 
-    NSLog(@"Switching to %@ : %p", key, [[self.segments objectForKey:key] pointerValue]);
-    owr_media_renderer_set_source(OWR_MEDIA_RENDERER(renderer),
-                                  [[self.segments objectForKey:key] pointerValue]);
+    NSLog(@"Switching to %@ : %p", key, source);
+    owr_media_renderer_set_source(OWR_MEDIA_RENDERER(renderer), source);
 }
 
 - (void)viewDidLoad
@@ -93,6 +93,16 @@ static void got_sources(GList *sources, gpointer user_data)
 
         g_object_get(source, "name", &name, "type", &source_type, "media-type", &media_type, NULL);
 
+        /* We ref the sources because we want them to stay around. On iOS they will never be
+         * unplugged, I expect, but it's safer this way. */
+        g_object_ref(source);
+
+        [staticSelf.segments setObject:[NSValue valueWithPointer:source] forKey:[NSString stringWithUTF8String:name]];
+
+        g_print("[%s/%s] %s\n", media_type == OWR_MEDIA_TYPE_AUDIO ? "audio" : "video",
+                source_type == OWR_SOURCE_TYPE_CAPTURE ? "capture" : source_type == OWR_SOURCE_TYPE_TEST ? "test" : "unknown",
+                name);
+
         if (!have_video && media_type == OWR_MEDIA_TYPE_VIDEO && source_type == OWR_SOURCE_TYPE_CAPTURE) {
             renderer = owr_video_renderer_new(SELF_VIEW_TAG);
             g_assert(renderer);
@@ -103,14 +113,6 @@ static void got_sources(GList *sources, gpointer user_data)
             have_video = TRUE;
         }
 
-        /* We ref the sources because we want them to stay around. On iOS they will never be
-         * unplugged, I expect, but it's safer this way. */
-        g_object_ref(source);
-
-        [staticSelf.segments setObject:[NSValue valueWithPointer:source] forKey:[NSString stringWithUTF8String:name]];
-        g_print("[%s/%s] %s\n", media_type == OWR_MEDIA_TYPE_AUDIO ? "audio" : "video",
-                source_type == OWR_SOURCE_TYPE_CAPTURE ? "capture" : source_type == OWR_SOURCE_TYPE_TEST ? "test" : "unknown",
-                name);
         sources = sources->next;
     }
 
@@ -119,6 +121,7 @@ static void got_sources(GList *sources, gpointer user_data)
         for (NSString *item in staticSelf.segments) {
             [staticSelf.cameraSelector insertSegmentWithTitle:item atIndex:staticSelf.cameraSelector.numberOfSegments animated:NO];
         }
+        staticSelf.cameraSelector.selectedSegmentIndex = 0;
     });
 }
 
