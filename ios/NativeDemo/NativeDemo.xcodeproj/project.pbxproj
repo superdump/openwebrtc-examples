@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB5BE517CFB1888352F71A2E /* libPods-NativeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DEC75C0F284C35831C02F1 /* libPods-NativeDemo.a */; };
-		BE4CDFCE95270AEB079D003D /* libPods-NativeDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC0BC22E89CCF7F6189B62A /* libPods-NativeDemoTests.a */; };
+		7467D6511ACBE72300995517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7467D6501ACBE72300995517 /* Foundation.framework */; };
+		7467D6531ACBE81200995517 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7467D6521ACBE81200995517 /* CoreMedia.framework */; };
+		7467D6551ACBE81900995517 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7467D6541ACBE81900995517 /* CoreAudio.framework */; };
+		7467D6571ACBE81F00995517 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7467D6561ACBE81F00995517 /* CoreVideo.framework */; };
+		7467D6591ACBE82500995517 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7467D6581ACBE82500995517 /* AudioToolbox.framework */; };
+		7467D65B1ACBE82A00995517 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7467D65A1ACBE82A00995517 /* VideoToolbox.framework */; };
+		7467D65D1ACBE83C00995517 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7467D65C1ACBE83C00995517 /* libc++.dylib */; };
+		7467D65F1ACBE84200995517 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7467D65E1ACBE84200995517 /* libresolv.dylib */; };
+		7467D6611ACBE84B00995517 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7467D6601ACBE84B00995517 /* AssetsLibrary.framework */; };
+		74D227D31ACBE4EB00F6DB0C /* OpenWebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D227D21ACBE4EB00F6DB0C /* OpenWebRTC.framework */; };
+		74D227EA1ACBE58B00F6DB0C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 74D227D61ACBE58B00F6DB0C /* .gitignore */; };
+		74D227EB1ACBE58B00F6DB0C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 74D227D71ACBE58B00F6DB0C /* LICENSE */; };
+		74D227EC1ACBE58B00F6DB0C /* OpenWebRTC-SDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 74D227D81ACBE58B00F6DB0C /* OpenWebRTC-SDK.podspec */; };
+		74D227ED1ACBE58B00F6DB0C /* OpenWebRTC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 74D227D91ACBE58B00F6DB0C /* OpenWebRTC.podspec */; };
+		74D227EE1ACBE58B00F6DB0C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 74D227DA1ACBE58B00F6DB0C /* README.md */; };
+		74D227EF1ACBE58B00F6DB0C /* example_dc.sdp in Resources */ = {isa = PBXBuildFile; fileRef = 74D227DC1ACBE58B00F6DB0C /* example_dc.sdp */; };
+		74D227F01ACBE58B00F6DB0C /* example_ff_remote.sdp in Resources */ = {isa = PBXBuildFile; fileRef = 74D227DD1ACBE58B00F6DB0C /* example_ff_remote.sdp */; };
+		74D227F11ACBE58B00F6DB0C /* sdp.js in Resources */ = {isa = PBXBuildFile; fileRef = 74D227DE1ACBE58B00F6DB0C /* sdp.js */; };
+		74D227F21ACBE58B00F6DB0C /* OpenWebRTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D227E11ACBE58B00F6DB0C /* OpenWebRTC.m */; };
+		74D227F31ACBE58B00F6DB0C /* OpenWebRTCNativeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D227E31ACBE58B00F6DB0C /* OpenWebRTCNativeHandler.m */; };
+		74D227F41ACBE58B00F6DB0C /* OpenWebRTCSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D227E51ACBE58B00F6DB0C /* OpenWebRTCSettings.m */; };
+		74D227F51ACBE58B00F6DB0C /* OpenWebRTCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D227E71ACBE58B00F6DB0C /* OpenWebRTCUtils.m */; };
+		74D227F61ACBE58B00F6DB0C /* OpenWebRTCVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D227E91ACBE58B00F6DB0C /* OpenWebRTCVideoView.m */; };
 		F80B5C291AB393A000A20926 /* EventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F80B5C281AB393A000A20926 /* EventSource.m */; };
 		F86CB6501ABFF08E00788753 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F86CB64F1ABFF08E00788753 /* Settings.bundle */; };
 		F86CB6531ABFF32D00788753 /* VideoAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = F86CB6521ABFF32D00788753 /* VideoAttributes.m */; };
-		F87B9B0A1AB772F000C02653 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B9B071AB772F000C02653 /* libiconv.dylib */; };
-		F87B9B0B1AB772F000C02653 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B9B081AB772F000C02653 /* libresolv.dylib */; };
-		F87B9B0C1AB772F000C02653 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B9B091AB772F000C02653 /* libc++.dylib */; };
-		F87B9B1D1AB7767A00C02653 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B9B1A1AB7767A00C02653 /* AssetsLibrary.framework */; };
-		F87B9B1E1AB7767A00C02653 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B9B1B1AB7767A00C02653 /* AudioToolbox.framework */; };
-		F87B9B1F1AB7767A00C02653 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B9B1C1AB7767A00C02653 /* AVFoundation.framework */; };
-		F87B9B251AB776C700C02653 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B9B221AB776C700C02653 /* CoreAudio.framework */; };
-		F87B9B271AB776C700C02653 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B9B241AB776C700C02653 /* CoreVideo.framework */; };
-		F87B9B291AB7771A00C02653 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B9B281AB7771A00C02653 /* VideoToolbox.framework */; };
-		F87B9B2B1AB777AD00C02653 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B9B2A1AB777AD00C02653 /* CoreMedia.framework */; };
 		F8B4B0561AB5B48D008D2C4C /* NativeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4B0551AB5B48D008D2C4C /* NativeDemoTests.m */; };
 		F8D10DD41A8B8585000BCA7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D10DD31A8B8585000BCA7E /* main.m */; };
 		F8D10DD71A8B8585000BCA7E /* NativeDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D10DD61A8B8585000BCA7E /* NativeDemoAppDelegate.m */; };
@@ -43,31 +54,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03DEC75C0F284C35831C02F1 /* libPods-NativeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		065B2B34CF7312D6670A59CA /* Pods-NativeDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeDemoTests/Pods-NativeDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		45AFDED59A43736D6F93B313 /* Pods-NativeDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeDemoTests/Pods-NativeDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		6BC0BC22E89CCF7F6189B62A /* libPods-NativeDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2FDE7223506D0C2C58BED66 /* Pods-NativeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeDemo/Pods-NativeDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		F5AF3E7B3485044168CC87D8 /* Pods-NativeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeDemo/Pods-NativeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7467D6501ACBE72300995517 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7467D6521ACBE81200995517 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7467D6541ACBE81900995517 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		7467D6561ACBE81F00995517 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7467D6581ACBE82500995517 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7467D65A1ACBE82A00995517 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		7467D65C1ACBE83C00995517 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		7467D65E1ACBE84200995517 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		7467D6601ACBE84B00995517 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		74D227D21ACBE4EB00F6DB0C /* OpenWebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenWebRTC.framework; path = ../../../../../../OpenWebRTC/iPhone.sdk/OpenWebRTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D227D61ACBE58B00F6DB0C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		74D227D71ACBE58B00F6DB0C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		74D227D81ACBE58B00F6DB0C /* OpenWebRTC-SDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "OpenWebRTC-SDK.podspec"; sourceTree = "<group>"; };
+		74D227D91ACBE58B00F6DB0C /* OpenWebRTC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenWebRTC.podspec; sourceTree = "<group>"; };
+		74D227DA1ACBE58B00F6DB0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		74D227DC1ACBE58B00F6DB0C /* example_dc.sdp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example_dc.sdp; sourceTree = "<group>"; };
+		74D227DD1ACBE58B00F6DB0C /* example_ff_remote.sdp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example_ff_remote.sdp; sourceTree = "<group>"; };
+		74D227DE1ACBE58B00F6DB0C /* sdp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sdp.js; sourceTree = "<group>"; };
+		74D227E01ACBE58B00F6DB0C /* OpenWebRTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenWebRTC.h; sourceTree = "<group>"; };
+		74D227E11ACBE58B00F6DB0C /* OpenWebRTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenWebRTC.m; sourceTree = "<group>"; };
+		74D227E21ACBE58B00F6DB0C /* OpenWebRTCNativeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenWebRTCNativeHandler.h; sourceTree = "<group>"; };
+		74D227E31ACBE58B00F6DB0C /* OpenWebRTCNativeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenWebRTCNativeHandler.m; sourceTree = "<group>"; };
+		74D227E41ACBE58B00F6DB0C /* OpenWebRTCSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenWebRTCSettings.h; sourceTree = "<group>"; };
+		74D227E51ACBE58B00F6DB0C /* OpenWebRTCSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenWebRTCSettings.m; sourceTree = "<group>"; };
+		74D227E61ACBE58B00F6DB0C /* OpenWebRTCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenWebRTCUtils.h; sourceTree = "<group>"; };
+		74D227E71ACBE58B00F6DB0C /* OpenWebRTCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenWebRTCUtils.m; sourceTree = "<group>"; };
+		74D227E81ACBE58B00F6DB0C /* OpenWebRTCVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenWebRTCVideoView.h; sourceTree = "<group>"; };
+		74D227E91ACBE58B00F6DB0C /* OpenWebRTCVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenWebRTCVideoView.m; sourceTree = "<group>"; };
 		F80B5C271AB393A000A20926 /* EventSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventSource.h; sourceTree = "<group>"; };
 		F80B5C281AB393A000A20926 /* EventSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventSource.m; sourceTree = "<group>"; };
 		F86CB64F1ABFF08E00788753 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		F86CB6511ABFF32D00788753 /* VideoAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoAttributes.h; sourceTree = "<group>"; };
 		F86CB6521ABFF32D00788753 /* VideoAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoAttributes.m; sourceTree = "<group>"; };
-		F87B9B071AB772F000C02653 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
-		F87B9B081AB772F000C02653 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
-		F87B9B091AB772F000C02653 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
-		F87B9B161AB7764400C02653 /* libPods-NativeDemo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-NativeDemo.a"; path = "Pods/../build/Debug-iphoneos/libPods-NativeDemo.a"; sourceTree = "<group>"; };
-		F87B9B181AB7765F00C02653 /* libPods-NativeDemo-OpenWebRTC-SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-NativeDemo-OpenWebRTC-SDK.a"; path = "Pods/../build/Debug-iphoneos/libPods-NativeDemo-OpenWebRTC-SDK.a"; sourceTree = "<group>"; };
-		F87B9B1A1AB7767A00C02653 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		F87B9B1B1AB7767A00C02653 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		F87B9B1C1AB7767A00C02653 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		F87B9B201AB7769A00C02653 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F87B9B221AB776C700C02653 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		F87B9B231AB776C700C02653 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		F87B9B241AB776C700C02653 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		F87B9B281AB7771A00C02653 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
-		F87B9B2A1AB777AD00C02653 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		F8B4B0511AB5B48D008D2C4C /* NativeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B4B0541AB5B48D008D2C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8B4B0551AB5B48D008D2C4C /* NativeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeDemoTests.m; sourceTree = "<group>"; };
@@ -90,14 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87B9B2B1AB777AD00C02653 /* CoreMedia.framework in Frameworks */,
-				F87B9B291AB7771A00C02653 /* VideoToolbox.framework in Frameworks */,
-				F87B9B251AB776C700C02653 /* CoreAudio.framework in Frameworks */,
-				F87B9B271AB776C700C02653 /* CoreVideo.framework in Frameworks */,
-				F87B9B1D1AB7767A00C02653 /* AssetsLibrary.framework in Frameworks */,
-				F87B9B1E1AB7767A00C02653 /* AudioToolbox.framework in Frameworks */,
-				F87B9B1F1AB7767A00C02653 /* AVFoundation.framework in Frameworks */,
-				BE4CDFCE95270AEB079D003D /* libPods-NativeDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,25 +116,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87B9B0A1AB772F000C02653 /* libiconv.dylib in Frameworks */,
-				F87B9B0B1AB772F000C02653 /* libresolv.dylib in Frameworks */,
-				F87B9B0C1AB772F000C02653 /* libc++.dylib in Frameworks */,
-				BB5BE517CFB1888352F71A2E /* libPods-NativeDemo.a in Frameworks */,
+				7467D6611ACBE84B00995517 /* AssetsLibrary.framework in Frameworks */,
+				7467D65F1ACBE84200995517 /* libresolv.dylib in Frameworks */,
+				7467D65D1ACBE83C00995517 /* libc++.dylib in Frameworks */,
+				7467D65B1ACBE82A00995517 /* VideoToolbox.framework in Frameworks */,
+				7467D6591ACBE82500995517 /* AudioToolbox.framework in Frameworks */,
+				7467D6571ACBE81F00995517 /* CoreVideo.framework in Frameworks */,
+				7467D6551ACBE81900995517 /* CoreAudio.framework in Frameworks */,
+				7467D6531ACBE81200995517 /* CoreMedia.framework in Frameworks */,
+				7467D6511ACBE72300995517 /* Foundation.framework in Frameworks */,
+				74D227D31ACBE4EB00F6DB0C /* OpenWebRTC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D250A0D53B589F2535D34BE7 /* Pods */ = {
+		74D227D51ACBE58B00F6DB0C /* openwebrtc-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
-				A2FDE7223506D0C2C58BED66 /* Pods-NativeDemo.debug.xcconfig */,
-				F5AF3E7B3485044168CC87D8 /* Pods-NativeDemo.release.xcconfig */,
-				065B2B34CF7312D6670A59CA /* Pods-NativeDemoTests.debug.xcconfig */,
-				45AFDED59A43736D6F93B313 /* Pods-NativeDemoTests.release.xcconfig */,
+				74D227D61ACBE58B00F6DB0C /* .gitignore */,
+				74D227D71ACBE58B00F6DB0C /* LICENSE */,
+				74D227D81ACBE58B00F6DB0C /* OpenWebRTC-SDK.podspec */,
+				74D227D91ACBE58B00F6DB0C /* OpenWebRTC.podspec */,
+				74D227DA1ACBE58B00F6DB0C /* README.md */,
+				74D227DB1ACBE58B00F6DB0C /* Resources */,
+				74D227DF1ACBE58B00F6DB0C /* SDK */,
 			);
-			name = Pods;
+			name = "openwebrtc-ios-sdk";
+			path = "../../../../openwebrtc-ios-sdk";
+			sourceTree = "<group>";
+		};
+		74D227DB1ACBE58B00F6DB0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74D227DC1ACBE58B00F6DB0C /* example_dc.sdp */,
+				74D227DD1ACBE58B00F6DB0C /* example_ff_remote.sdp */,
+				74D227DE1ACBE58B00F6DB0C /* sdp.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		74D227DF1ACBE58B00F6DB0C /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				74D227E01ACBE58B00F6DB0C /* OpenWebRTC.h */,
+				74D227E11ACBE58B00F6DB0C /* OpenWebRTC.m */,
+				74D227E21ACBE58B00F6DB0C /* OpenWebRTCNativeHandler.h */,
+				74D227E31ACBE58B00F6DB0C /* OpenWebRTCNativeHandler.m */,
+				74D227E41ACBE58B00F6DB0C /* OpenWebRTCSettings.h */,
+				74D227E51ACBE58B00F6DB0C /* OpenWebRTCSettings.m */,
+				74D227E61ACBE58B00F6DB0C /* OpenWebRTCUtils.h */,
+				74D227E71ACBE58B00F6DB0C /* OpenWebRTCUtils.m */,
+				74D227E81ACBE58B00F6DB0C /* OpenWebRTCVideoView.h */,
+				74D227E91ACBE58B00F6DB0C /* OpenWebRTCVideoView.m */,
+			);
+			path = SDK;
 			sourceTree = "<group>";
 		};
 		F80B5C261AB3937100A20926 /* Signalling */ = {
@@ -161,7 +209,6 @@
 				F8B4B0521AB5B48D008D2C4C /* NativeDemoTests */,
 				F8D10DCF1A8B8585000BCA7E /* Products */,
 				F8D10DFF1A8BAB39000BCA7E /* Frameworks */,
-				D250A0D53B589F2535D34BE7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,6 +224,7 @@
 		F8D10DD01A8B8585000BCA7E /* NativeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				74D227D51ACBE58B00F6DB0C /* openwebrtc-ios-sdk */,
 				F80B5C261AB3937100A20926 /* Signalling */,
 				F8D10DD51A8B8585000BCA7E /* NativeDemoAppDelegate.h */,
 				F8D10DD61A8B8585000BCA7E /* NativeDemoAppDelegate.m */,
@@ -205,22 +253,16 @@
 		F8D10DFF1A8BAB39000BCA7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F87B9B2A1AB777AD00C02653 /* CoreMedia.framework */,
-				F87B9B281AB7771A00C02653 /* VideoToolbox.framework */,
-				F87B9B221AB776C700C02653 /* CoreAudio.framework */,
-				F87B9B231AB776C700C02653 /* CoreImage.framework */,
-				F87B9B241AB776C700C02653 /* CoreVideo.framework */,
-				F87B9B201AB7769A00C02653 /* CoreGraphics.framework */,
-				F87B9B1A1AB7767A00C02653 /* AssetsLibrary.framework */,
-				F87B9B1B1AB7767A00C02653 /* AudioToolbox.framework */,
-				F87B9B1C1AB7767A00C02653 /* AVFoundation.framework */,
-				F87B9B181AB7765F00C02653 /* libPods-NativeDemo-OpenWebRTC-SDK.a */,
-				F87B9B161AB7764400C02653 /* libPods-NativeDemo.a */,
-				F87B9B071AB772F000C02653 /* libiconv.dylib */,
-				F87B9B081AB772F000C02653 /* libresolv.dylib */,
-				F87B9B091AB772F000C02653 /* libc++.dylib */,
-				03DEC75C0F284C35831C02F1 /* libPods-NativeDemo.a */,
-				6BC0BC22E89CCF7F6189B62A /* libPods-NativeDemoTests.a */,
+				7467D6601ACBE84B00995517 /* AssetsLibrary.framework */,
+				7467D65E1ACBE84200995517 /* libresolv.dylib */,
+				7467D65C1ACBE83C00995517 /* libc++.dylib */,
+				7467D65A1ACBE82A00995517 /* VideoToolbox.framework */,
+				7467D6581ACBE82500995517 /* AudioToolbox.framework */,
+				7467D6561ACBE81F00995517 /* CoreVideo.framework */,
+				7467D6541ACBE81900995517 /* CoreAudio.framework */,
+				7467D6521ACBE81200995517 /* CoreMedia.framework */,
+				7467D6501ACBE72300995517 /* Foundation.framework */,
+				74D227D21ACBE4EB00F6DB0C /* OpenWebRTC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -232,11 +274,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8B4B05B1AB5B48D008D2C4C /* Build configuration list for PBXNativeTarget "NativeDemoTests" */;
 			buildPhases = (
-				C2ACC09C8B7D3422D4B50216 /* Check Pods Manifest.lock */,
 				F8B4B04D1AB5B48D008D2C4C /* Sources */,
 				F8B4B04E1AB5B48D008D2C4C /* Frameworks */,
 				F8B4B04F1AB5B48D008D2C4C /* Resources */,
-				B648C85D37E0E8691BF5F5FA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,11 +292,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8D10DF11A8B8585000BCA7E /* Build configuration list for PBXNativeTarget "NativeDemo" */;
 			buildPhases = (
-				D1B68F5B21047527235249D5 /* Check Pods Manifest.lock */,
 				F8D10DCA1A8B8585000BCA7E /* Sources */,
 				F8D10DCB1A8B8585000BCA7E /* Frameworks */,
 				F8D10DCC1A8B8585000BCA7E /* Resources */,
-				B76A9FE5E46385ED5013881B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,77 +354,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D227F01ACBE58B00F6DB0C /* example_ff_remote.sdp in Resources */,
+				74D227EB1ACBE58B00F6DB0C /* LICENSE in Resources */,
+				74D227EA1ACBE58B00F6DB0C /* .gitignore in Resources */,
 				F86CB6501ABFF08E00788753 /* Settings.bundle in Resources */,
 				F8D10DDD1A8B8585000BCA7E /* Main.storyboard in Resources */,
+				74D227F11ACBE58B00F6DB0C /* sdp.js in Resources */,
 				F8D10DE21A8B8585000BCA7E /* LaunchScreen.xib in Resources */,
+				74D227EC1ACBE58B00F6DB0C /* OpenWebRTC-SDK.podspec in Resources */,
 				F8D10DDF1A8B8585000BCA7E /* Images.xcassets in Resources */,
+				74D227EF1ACBE58B00F6DB0C /* example_dc.sdp in Resources */,
+				74D227ED1ACBE58B00F6DB0C /* OpenWebRTC.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		B648C85D37E0E8691BF5F5FA /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeDemoTests/Pods-NativeDemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B76A9FE5E46385ED5013881B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeDemo/Pods-NativeDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C2ACC09C8B7D3422D4B50216 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D1B68F5B21047527235249D5 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8B4B04D1AB5B48D008D2C4C /* Sources */ = {
@@ -401,10 +383,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D227F21ACBE58B00F6DB0C /* OpenWebRTC.m in Sources */,
+				74D227F51ACBE58B00F6DB0C /* OpenWebRTCUtils.m in Sources */,
 				F86CB6531ABFF32D00788753 /* VideoAttributes.m in Sources */,
+				74D227F61ACBE58B00F6DB0C /* OpenWebRTCVideoView.m in Sources */,
 				F8D10DDA1A8B8585000BCA7E /* NativeDemoViewController.m in Sources */,
 				F80B5C291AB393A000A20926 /* EventSource.m in Sources */,
+				74D227EE1ACBE58B00F6DB0C /* README.md in Sources */,
+				74D227F41ACBE58B00F6DB0C /* OpenWebRTCSettings.m in Sources */,
 				F8D10DD71A8B8585000BCA7E /* NativeDemoAppDelegate.m in Sources */,
+				74D227F31ACBE58B00F6DB0C /* OpenWebRTCNativeHandler.m in Sources */,
 				F8D10DD41A8B8585000BCA7E /* main.m in Sources */,
 				F8D114681A8C92F4000BCA7E /* PeerServerHandler.m in Sources */,
 			);
@@ -442,7 +430,6 @@
 /* Begin XCBuildConfiguration section */
 		F8B4B0591AB5B48D008D2C4C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 065B2B34CF7312D6670A59CA /* Pods-NativeDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -452,6 +439,11 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**",
 				);
 				INFOPLIST_FILE = NativeDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
@@ -467,13 +459,17 @@
 		};
 		F8B4B05A1AB5B48D008D2C4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45AFDED59A43736D6F93B313 /* Pods-NativeDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**",
 				);
 				INFOPLIST_FILE = NativeDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
@@ -567,7 +563,6 @@
 		};
 		F8D10DF21A8B8585000BCA7E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2FDE7223506D0C2C58BED66 /* Pods-NativeDemo.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -576,10 +571,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(USER_LIBRARY_DIR)/Developer/OpenWebRTC/iPhone.sdk",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**",
 				);
 				INFOPLIST_FILE = NativeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -592,7 +589,6 @@
 		};
 		F8D10DF31A8B8585000BCA7E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5AF3E7B3485044168CC87D8 /* Pods-NativeDemo.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -601,10 +597,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(USER_LIBRARY_DIR)/Developer/OpenWebRTC/iPhone.sdk",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"~/Library/Developer/OpenWebRTC/iPhone.sdk/OpenWebRTC.framework/Headers/**",
 				);
 				INFOPLIST_FILE = NativeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

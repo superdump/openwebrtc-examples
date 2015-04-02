@@ -31,7 +31,7 @@
 #import "PeerServerHandler.h"
 #import "VideoAttributes.h"
 
-#import <OpenWebRTC-SDK/OpenWebRTC.h>
+#import "OpenWebRTC.h"
 
 #define kServerURL @"http://demo.openwebrtc.io:38080"
 

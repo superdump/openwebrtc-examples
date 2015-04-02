@@ -29,7 +29,7 @@
 
 #import "NativeDemoAppDelegate.h"
 #import <AVFoundation/AVAudioSession.h>
-#import <OpenWebRTC-SDK/OpenWebRTC.h>
+#import "OpenWebRTC.h"
 
 @implementation NativeDemoAppDelegate
 

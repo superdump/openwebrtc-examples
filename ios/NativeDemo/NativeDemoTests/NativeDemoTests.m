@@ -32,7 +32,7 @@
 
 #import "NativeDemoViewController.h"
 #import "PeerServerHandler.h"
-#import <OpenWebRTC-SDK/OpenWebRTC.h>
+#import "OpenWebRTC.h"
 
 @interface NativeDemoTests : XCTestCase <PeerServerHandlerDelegate>
 
